@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import { Code2, Database, Server, Zap } from 'lucide-react';
 
 const stats = [
-  { value: '1.5+', label: 'Years Experience', icon: Zap },
+  { value: '1.7+', label: 'Years Experience', icon: Zap },
   { value: '25%', label: 'API Optimization', icon: Server },
   { value: '10+', label: 'Projects Delivered', icon: Code2 },
   { value: '100%', label: 'Code Coverage Focus', icon: Database },
@@ -37,7 +37,7 @@ export function AboutSection() {
               className="space-y-4">
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a <span className="text-foreground font-medium">MERN Full Stack Developer</span> with 1.5 years  of experience building scalable web applications.
+                I'm a <span className="text-foreground font-medium">MERN Full Stack Developer</span> with 1.7 years  of experience building scalable web applications.
                 I specialize in <span className="text-primary">React.js, Next.js</span> and <span className="text-accent">Node.js, Express.js, MongoDB</span> to create
                 secure, performance-focused solutions that deliver exceptional user experiences.
               </p>

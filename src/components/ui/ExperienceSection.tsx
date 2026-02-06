@@ -37,13 +37,13 @@ export function ExperienceSection() {
               <p className="text-muted-foreground mb-6">
                 📍 Pune | 🗓 June 2024 – Present
               </p>
-              
+
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                MERN Stack Developer with 1.8+ years of hands-on experience building scalable full-stack web applications. Successfully delivered 10+ real-world projects involving modern frontend, backend, database design, and deployment workflows.
+                MERN Stack Developer with 1.7+ years of hands-on experience building scalable full-stack web applications. Successfully delivered 10+ real-world projects involving modern frontend, backend, database design, and deployment workflows.
               </p>
-              
+
               <h4 className="text-lg font-semibold text-primary mb-4">Role & Responsibilities</h4>
-              
+
               <div className="mb-6">
                 <h5 className="text-base font-semibold text-foreground mb-3">Frontend Development</h5>
                 <ul className="space-y-3">
@@ -65,7 +65,7 @@ export function ExperienceSection() {
                   </li>
                 </ul>
               </div>
-              
+
               <div className="mb-6">
                 <h5 className="text-base font-semibold text-foreground mb-3">Backend Development</h5>
                 <ul className="space-y-3">
@@ -87,7 +87,7 @@ export function ExperienceSection() {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h5 className="text-base font-semibold text-foreground mb-3">DevOps & Tools</h5>
                 <ul className="space-y-3">

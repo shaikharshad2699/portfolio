@@ -35,7 +35,7 @@ export function ExperienceSection() {
                 MERN Stack Developer — Broadstairs IT Solutions
               </h3>
               <p className="text-muted-foreground mb-6">
-                📍 Pune | 🗓 November 2022 – Present
+                📍 Pune | 🗓 January 2023 – Present
               </p>
 
               <p className="text-muted-foreground mb-6 leading-relaxed">

@@ -52,7 +52,7 @@ export function AboutSection() {
                   <p className="font-semibold text-foreground text-lg md:text-xl text-primary">M.Sc Computer Science</p>
                   <p className="text-muted-foreground text-sm">Dr. Babasaheb Ambedkar Marathwada University • 2020</p>
                   <p className="font-semibold text-foreground text-lg md:text-xl text-primary">Certification</p>
-                  <p className="text-muted-foreground text-sm">MERN Full Stack Developer-Seven Mentor & Training Pvt.Ltd • 2024</p>
+                  <p className="text-muted-foreground text-sm">MERN Full Stack Developer-Seven Mentor Pune.</p>
                 </div>
               </div>
             </motion.div>

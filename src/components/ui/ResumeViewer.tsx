@@ -9,7 +9,7 @@ interface ResumeViewerProps {
 export function ResumeViewer({ isOpen, onClose }: ResumeViewerProps) {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = '/Arshad Updated Resume2026.pdf';
     link.download = 'Arshad_Resume.pdf';
     link.click();
   };
@@ -50,12 +50,19 @@ export function ResumeViewer({ isOpen, onClose }: ResumeViewerProps) {
                 </button>
               </div>
             </div>
-            <div className="flex-1 overflow-auto p-4">
-              <iframe
-                src="/resume.pdf"
+            <div className="flex-1 overflow-auto p-4 bg-muted/20">
+              <object
+                data="/Arshad Updated Resume2026.pdf#toolbar=0"
+                type="application/pdf"
                 className="w-full h-full rounded-lg"
                 title="Resume"
-              />
+              >
+                <embed
+                  src="/Arshad Updated Resume2026.pdf#toolbar=0"
+                  type="application/pdf"
+                  className="w-full h-full rounded-lg"
+                />
+              </object>
             </div>
           </motion.div>
         </>

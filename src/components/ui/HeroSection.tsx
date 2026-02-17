@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 
 export function HeroSection() {
   return (
@@ -65,22 +65,36 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex items-center justify-center gap-6"
           >
-            {[
-              { icon: Github, href: 'https://github.com', label: 'GitHub' },
-              { icon: Mail, href: 'mailto:arshad2699@gmail.com', label: 'Email' },
-            ].map(({ icon: Icon, href, label }) => (
-              <motion.a
-                key={label}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.1, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-                className="p-3 rounded-xl bg-secondary/50 text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300"
-              >
-                <Icon size={22} />
-              </motion.a>
-            ))}
+            <motion.a
+              href="https://github.com/shaikharshad2699"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="p-3 rounded-xl bg-secondary/50 text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300"
+            >
+              <Github size={22} />
+            </motion.a>
+            <motion.a
+              href="https://www.linkedin.com/in/shaikh-arshad01"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="p-3 rounded-xl bg-secondary/50 text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300"
+            >
+              <Linkedin size={22} />
+            </motion.a>
+            <motion.a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=arshad2699@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="p-3 rounded-xl bg-secondary/50 text-muted-foreground hover:text-primary hover:bg-secondary transition-all duration-300"
+            >
+              <Mail size={22} />
+            </motion.a>
           </motion.div>
         </div>
       </div>

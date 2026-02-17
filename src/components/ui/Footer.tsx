@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -12,8 +12,9 @@ export function Footer() {
             className="flex items-center gap-6"
           >
             {[
-              { icon: Github, href: 'https://github.com', label: 'GitHub' },
-              { icon: Mail, href: 'mailto:arshad2699@gmail.com', label: 'Email' },
+              { icon: Github, href: 'https://github.com/shaikharshad2699', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/shaikh-arshad01', label: 'LinkedIn' },
+              { icon: Mail, href: 'https://mail.google.com/mail/?view=cm&fs=1&to=arshad2699@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

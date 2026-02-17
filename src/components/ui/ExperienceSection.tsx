@@ -35,11 +35,11 @@ export function ExperienceSection() {
                 MERN Stack Developer — Broadstairs IT Solutions
               </h3>
               <p className="text-muted-foreground mb-6">
-                📍 Pune | 🗓 June 2024 – Present
+                📍 Pune | 🗓 November 2022 – Present
               </p>
 
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                MERN Stack Developer with 1.7+ years of hands-on experience building scalable full-stack web applications. Successfully delivered 10+ real-world projects involving modern frontend, backend, database design, and deployment workflows.
+                MERN Stack Developer with 3+ years of hands-on experience building scalable full-stack web applications. Successfully delivered 10+ real-world projects involving modern frontend, backend, database design, and deployment workflows.
               </p>
 
               <h4 className="text-lg font-semibold text-primary mb-4">Role & Responsibilities</h4>
